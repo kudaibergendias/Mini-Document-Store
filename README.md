@@ -19,7 +19,7 @@
 
 ## Структура проекта
 
-Mini-Document-Store/
+***Mini-Document-Store/
 ├── main.py # FastAPI приложение
 ├── models.py # SQLAlchemy модели
 ├── crud.py # Функции работы с базой
@@ -28,7 +28,7 @@ Mini-Document-Store/
 ├── ai.py # Фейковая функция AI-анализ
 ├── storage/ # Папка для сохранённых файлов
 ├── requirements.txt # Зависимости проекта
-└── README.md # Этот файл
+└── README.md # Этот файл***
 
 
 
