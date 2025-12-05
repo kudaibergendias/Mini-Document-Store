@@ -21,15 +21,24 @@
 
 Mini-Document-Store/
 │
-├── main.py # FastAPI приложение
-├── models.py # SQLAlchemy модели
-├── crud.py # Функции работы с базой
-├── schemas.py # Pydantic-схемы
-├── database.py # Настройка базы данных
-├── ai.py # Фейковая функция AI-анализ
-├── storage/ # Папка для сохранённых файлов
-├── requirements.txt
-└── README.md
+├── 
+main.py # FastAPI приложение
+├── 
+models.py # SQLAlchemy модели
+├── 
+crud.py # Функции работы с базой
+├── 
+schemas.py # Pydantic-схемы
+├── 
+database.py # Настройка базы данных
+├── 
+ai.py # Фейковая функция AI-анализ
+├── 
+storage/ # Папка для сохранённых файлов
+├── 
+requirements.txt
+└── 
+README.md
 
 
 
