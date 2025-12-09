@@ -45,22 +45,29 @@ pythonProject4/
 ---
 
 Как запустить проект
-1. Клонировать репозиторий
-git clone https://github.com/kudaibergendias/Mini-Document-Store.git
-cd Mini-Document-Store
+1. Клонировать репозиторий:
+   
+  git clone https://github.com/kudaibergendias/Mini-Document-Store.git
 
-2. Создать виртуальное окружение
-python -m venv venv
-source venv/bin/activate     # Linux/Mac
-venv\Scripts\activate        # Windows
+  cd Mini-Document-Store
 
-3. Установить зависимости
-pip install -r requirements.txt
+3. Создать виртуальное окружение:
+   
+  python -m venv venv
 
-4. Запустить сервер FastAPI
-uvicorn main:app --reload
+  source venv/bin/activate     # Linux/Mac
 
-5. Открыть документацию API
+  venv\Scripts\activate        # Windows
+
+5. Установить зависимости:
+   
+  pip install -r requirements.txt
+
+7. Запустить сервер FastAPI:
+   
+  uvicorn main:app --reload
+
+9. Открыть документацию API:
 
 Swagger UI:
 
