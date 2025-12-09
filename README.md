@@ -42,11 +42,36 @@ pythonProject4/
 └── README.md         # Этот файл
 
 
-
-
-
 ---
 
+Как запустить проект
+1. Клонировать репозиторий
+git clone https://github.com/kudaibergendias/Mini-Document-Store.git
+cd Mini-Document-Store
+
+2. Создать виртуальное окружение
+python -m venv venv
+source venv/bin/activate     # Linux/Mac
+venv\Scripts\activate        # Windows
+
+3. Установить зависимости
+pip install -r requirements.txt
+
+4. Запустить сервер FastAPI
+uvicorn main:app --reload
+
+5. Открыть документацию API
+
+Swagger UI:
+
+http://127.0.0.1:8000/docs
+
+
+ReDoc:
+
+http://127.0.0.1:8000/redoc
+
+---
 ## API Основные маршруты
 
 - **POST /files/upload** — загрузка файла  
